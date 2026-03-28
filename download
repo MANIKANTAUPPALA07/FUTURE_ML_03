@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Data & Models (Ignore large raw files, keep structured processed data if needed)
+dataset.zip
+*.csv
+!datasets/Resume/Resume.csv  # Example of keeping a crucial small dataset if needed, usually best to ignore all if big
+
+# Streamlit
+.streamlit/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Agent caches
+.gemini/
+desktop.ini
+
+# Agent caches
+.gemini/
